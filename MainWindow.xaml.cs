@@ -27,19 +27,13 @@ namespace CSGOconfig
         public MainWindow()
         {
             InitializeComponent();
-
+            btn_preset.IsEnabled = false;
 
         }
 
         void OnClick(object sender, RoutedEventArgs e)
         {
             config_box.Text = "";
-        }
-
-        void OnClick1(object sender, RoutedEventArgs e)
-        {
-            string str = "unbindall\nbind \"0\" \"slot10\"\n";
-            config_box.Text += str;
         }
 
         void OnClick3(object sender, RoutedEventArgs e)
@@ -52,6 +46,36 @@ namespace CSGOconfig
             {
                 case "Jumpthrow":
                     first = $"alias \" + jumpthrow\" \" + jump; -attack\"; alias \" - jumpthrow\" \" - jump\"\nbind {buttonbox} \"+jumpthrow\"";
+                    break;
+                case "Mousewheel Jump":
+                    first = $"bind mwheelup +jump;bind mwheeldown +jump;bind space +jump";
+                    break;
+                case "Quickswitch":
+                    first = $"bind {buttonbox} \"use weapon_knife;slo1\"";
+                    break;
+                case "Flashbang":
+                    first = $"bind {buttonbox} \"use weapon_flashbang\"";
+                    break;
+                case "Smoke":
+                    first = $"bind {buttonbox} \"use weapon_smokegrenade\"";
+                    break;
+                case "HE grenade":
+                    first = $"bind {buttonbox} \"use weapon_hegrenade\"";
+                    break;
+                case "Molotov":
+                    first = $"bind {buttonbox} \"use weapon_molotov;use weapon_incgrenade\"";
+                    break;
+                case "Drop bomb":
+                    first = $"bind {buttonbox} \"use weapon_knife; use weapon_c4; drop; slot1\"";
+                    break;
+                case "Clear Decals":
+                    first = $"bind {buttonbox} \"r_cleardecals\"";
+                    break;
+                case "Switch Hands":
+                    first = $"bind {buttonbox} \"toggle cl_righthand 0 1\"";
+                    break;
+                case "Remove Crosshair":
+                    first = $"bind {buttonbox} \"toggle crosshair 0 1\"";
                     break;
                 default:
                     break;
@@ -66,6 +90,7 @@ namespace CSGOconfig
             var writer = new StreamWriter(File.OpenWrite("config.cfg"));
             writer.WriteLine(config_box.Text);
             writer.Close();
+            MessageBox.Show("Successfuly saved to config.cfg");
         }
 
         void OnClick5(object sender, RoutedEventArgs e)

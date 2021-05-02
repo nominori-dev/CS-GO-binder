@@ -5,13 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CSGOconfig"
         mc:Ignorable="d"
-        Title="CSGO binder" Height="450" Width="600" ResizeMode="NoResize" WindowStyle="ToolWindow">
+        Title="CSGO binder" Height="450" Width="600" ResizeMode="CanMinimize" WindowStyle="ToolWindow" Icon="iconfinder_csgo_squircle_4737387.png">
     <Grid>
         <TextBox HorizontalAlignment="Left" Name="config_box" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" Height="336" Margin="298,40,0,0" Text="Clear before using :D" VerticalAlignment="Top" Width="286" FontSize="9"/>
         <Button Content="CLEAR" Name="btn_clear" Click="OnClick" HorizontalAlignment="Left" Margin="182,335,0,0" VerticalAlignment="Top" Width="101" Height="41"/>
-        <Button Content="Preset by yomiyori" x:Name="btn_preset" Click="OnClick1" HorizontalAlignment="Left" Margin="21,335,0,0" VerticalAlignment="Top" Width="101" Height="41" FontSize="11"/>
+        <Button Content="Preset by yomiyori" x:Name="btn_preset" HorizontalAlignment="Left" Margin="21,335,0,0" VerticalAlignment="Top" Width="101" Height="41" FontSize="11"/>
         <ComboBox Name="ActionBOX" HorizontalAlignment="Left" Height="27" Margin="21,104,0,0" VerticalAlignment="Top" Width="141">
             <ComboBoxItem>Jumpthrow</ComboBoxItem>
+            <ComboBoxItem>Quickswitch</ComboBoxItem>
+            <ComboBoxItem>Flashbang</ComboBoxItem>
+            <ComboBoxItem>Smoke</ComboBoxItem>
+            <ComboBoxItem>HE grenade</ComboBoxItem>
+            <ComboBoxItem>Molotov</ComboBoxItem>
+            <ComboBoxItem>Drop Bomb</ComboBoxItem>
+            <ComboBoxItem>Clear Decals</ComboBoxItem>
+            <ComboBoxItem>Switch Hands</ComboBoxItem>
+            <ComboBoxItem>Remove Crosshair</ComboBoxItem>
+            <ComboBoxItem>Mousewheel Jump</ComboBoxItem>
         </ComboBox>
         <ComboBox Name="ButtonBOX"  HorizontalAlignment="Left" Height="27" Margin="182,104,0,0" VerticalAlignment="Top" Width="101">
             <ComboBoxItem>alt</ComboBoxItem>
@@ -32,14 +42,43 @@
             <ComboBoxItem>3</ComboBoxItem>
             <ComboBoxItem>4</ComboBoxItem>
             <ComboBoxItem>5</ComboBoxItem>
+            <ComboBoxItem>A</ComboBoxItem>
+            <ComboBoxItem>B</ComboBoxItem>
+            <ComboBoxItem>C</ComboBoxItem>
+            <ComboBoxItem>D</ComboBoxItem>
+            <ComboBoxItem>E</ComboBoxItem>
+            <ComboBoxItem>F</ComboBoxItem>
+            <ComboBoxItem>G</ComboBoxItem>
+            <ComboBoxItem>H</ComboBoxItem>
+            <ComboBoxItem>L</ComboBoxItem>
+            <ComboBoxItem>J</ComboBoxItem>
+            <ComboBoxItem>K</ComboBoxItem>
+            <ComboBoxItem>L</ComboBoxItem>
+            <ComboBoxItem>M</ComboBoxItem>
+            <ComboBoxItem>N</ComboBoxItem>
+            <ComboBoxItem>O</ComboBoxItem>
+            <ComboBoxItem>P</ComboBoxItem>
+            <ComboBoxItem>Q</ComboBoxItem>
+            <ComboBoxItem>R</ComboBoxItem>
+            <ComboBoxItem>S</ComboBoxItem>
+            <ComboBoxItem>T</ComboBoxItem>
+            <ComboBoxItem>U</ComboBoxItem>
+            <ComboBoxItem>V</ComboBoxItem>
+            <ComboBoxItem>W</ComboBoxItem>
+            <ComboBoxItem>X</ComboBoxItem>
+            <ComboBoxItem>Y</ComboBoxItem>
+            <ComboBoxItem>Z</ComboBoxItem>
+            <ComboBoxItem>Tab</ComboBoxItem>
+            <ComboBoxItem>CapsLock</ComboBoxItem>
+            <ComboBoxItem>Shift</ComboBoxItem>
+            <ComboBoxItem>Ctrl</ComboBoxItem>
+            <ComboBoxItem>Space</ComboBoxItem>
+            <ComboBoxItem>/</ComboBoxItem>
+            <ComboBoxItem>,</ComboBoxItem>
+            <ComboBoxItem>.</ComboBoxItem>
         </ComboBox>
         <Label Content="Action&#xD;&#xA;" HorizontalAlignment="Left" Margin="21,77,0,0" VerticalAlignment="Top" Height="27" Width="141"/>
         <Label Content="Button&#xA;" HorizontalAlignment="Left" Margin="182,77,0,0" VerticalAlignment="Top" Height="27" Width="101"/>
-        <TextBlock Margin="519,381,10,10">
-            <Hyperlink NavigateUri="https://github.com/nominori-dev" RequestNavigate="Hyperlink_RequestNavigate">
-                author
-            </Hyperlink>
-        </TextBlock>
         <Button Content="Add to config" x:Name="add_to_config" Click="OnClick3" HorizontalAlignment="Left" Margin="182,151,0,0" VerticalAlignment="Top" Width="101" Height="34"/>
         <Image Source="csgo.png" HorizontalAlignment="Left" Height="68" Margin="21,4,0,0" VerticalAlignment="Top" Width="154"/>
         <Button Content="Save cfg file" x:Name="savefile" Click="OnClick4" HorizontalAlignment="Left" Margin="182,206,0,0" VerticalAlignment="Top" Width="101" Height="34"/>
@@ -51,6 +90,7 @@
         </ComboBox>
         <Label Content="Command" HorizontalAlignment="Left" Margin="21,151,0,0" VerticalAlignment="Top" Height="27" Width="141"/>
         <Button Content="Add command" x:Name="add_command" Click="OnClick6" HorizontalAlignment="Left" Margin="21,210,0,0" VerticalAlignment="Top" Width="101" Height="34"/>
+        <Label Content="build 03.05.2021 version 0.1" HorizontalAlignment="Left" Margin="414,386,0,0" VerticalAlignment="Top" Width="170"/>
 
     </Grid>
 </Window>
