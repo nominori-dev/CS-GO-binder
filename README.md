@@ -9,7 +9,7 @@
 
 # Task lists
 
-- [ ] 0.1 Version(Basic commands and actions)
+- [x] 0.1 Version(Basic commands and actions)
 - [ ] 0.2 Version(Advanced commands and actions)
 - [ ] 0.3 Version(More basic and advanced commands and action)
 - [ ] 0.4 Version(New UI design)
