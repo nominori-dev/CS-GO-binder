@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CSGOconfig"
         mc:Ignorable="d"
-        Title="CSGO binder" Height="450" Width="600" ResizeMode="CanMinimize" WindowStyle="ToolWindow" Icon="iconfinder_csgo_squircle_4737387.png">
+        Title="CSGO binder" Height="450" Width="600" WindowStyle="ToolWindow" Icon="iconfinder_csgo_squircle_4737387.png" ResizeMode="CanMinimize">
     <Grid>
         <TextBox HorizontalAlignment="Left" Name="config_box" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" Height="336" Margin="298,40,0,0" Text="Clear before using :D" VerticalAlignment="Top" Width="286" FontSize="9"/>
         <Button Content="CLEAR" Name="btn_clear" Click="OnClick" HorizontalAlignment="Left" Margin="182,335,0,0" VerticalAlignment="Top" Width="101" Height="41"/>
@@ -87,6 +87,11 @@
             <ComboBoxItem Content="-freq 144"/>
             <ComboBoxItem Content="-freq 75"/>
             <ComboBoxItem Content="-refresh 144"/>
+            <ComboBoxItem Content="unbindall"/>
+            <ComboBoxItem Content="+break"/>
+            <ComboBoxItem Content="+jump"/>
+            <ComboBoxItem Content="+lookdown"/>
+            <ComboBoxItem Content="+reload"/>
         </ComboBox>
         <Label Content="Command" HorizontalAlignment="Left" Margin="21,151,0,0" VerticalAlignment="Top" Height="27" Width="141"/>
         <Button Content="Add command" x:Name="add_command" Click="OnClick6" HorizontalAlignment="Left" Margin="21,210,0,0" VerticalAlignment="Top" Width="101" Height="34"/>

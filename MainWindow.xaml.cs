@@ -65,7 +65,7 @@ namespace CSGOconfig
                 case "Molotov":
                     first = $"bind {buttonbox} \"use weapon_molotov;use weapon_incgrenade\"";
                     break;
-                case "Drop bomb":
+                case "Drop Bomb":
                     first = $"bind {buttonbox} \"use weapon_knife; use weapon_c4; drop; slot1\"";
                     break;
                 case "Clear Decals":
