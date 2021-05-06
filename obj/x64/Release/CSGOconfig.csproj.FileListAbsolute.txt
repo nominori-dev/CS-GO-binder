@@ -33,3 +33,15 @@ C:\Users\eveli\csgo-binder\obj\x64\Release\CSGOconfig.csproj.GenerateResource.ca
 C:\Users\eveli\csgo-binder\obj\x64\Release\CSGOconfig.csproj.CoreCompileInputs.cache
 C:\Users\eveli\csgo-binder\obj\x64\Release\CSGOconfig.exe
 C:\Users\eveli\csgo-binder\obj\x64\Release\CSGOconfig.pdb
+C:\Users\eveli\csgo-binder\bin\x64\Release\ControlzEx.dll
+C:\Users\eveli\csgo-binder\bin\x64\Release\MahApps.Metro.dll
+C:\Users\eveli\csgo-binder\bin\x64\Release\Microsoft.Xaml.Behaviors.dll
+C:\Users\eveli\csgo-binder\bin\x64\Release\ControlzEx.pdb
+C:\Users\eveli\csgo-binder\bin\x64\Release\ControlzEx.xml
+C:\Users\eveli\csgo-binder\bin\x64\Release\MahApps.Metro.pdb
+C:\Users\eveli\csgo-binder\bin\x64\Release\MahApps.Metro.xml
+C:\Users\eveli\csgo-binder\bin\x64\Release\Microsoft.Xaml.Behaviors.pdb
+C:\Users\eveli\csgo-binder\bin\x64\Release\Microsoft.Xaml.Behaviors.xml
+C:\Users\eveli\csgo-binder\bin\x64\Release\de\MahApps.Metro.resources.dll
+C:\Users\eveli\csgo-binder\obj\x64\Release\App.baml
+C:\Users\eveli\csgo-binder\obj\x64\Release\CSGOconfig.csproj.CopyComplete

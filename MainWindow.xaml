@@ -1,8 +1,9 @@
-﻿<Window x:Class="CSGOconfig.MainWindow"
+﻿<mah:MetroWindow x:Class="CSGOconfig.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" 
         xmlns:local="clr-namespace:CSGOconfig"
         mc:Ignorable="d"
         Title="CSGO binder" Height="450" Width="600" WindowStyle="ToolWindow" Icon="iconfinder_csgo_squircle_4737387.png" ResizeMode="CanMinimize">
@@ -98,4 +99,4 @@
         <Label Content="build 03.05.2021 version 0.1" HorizontalAlignment="Left" Margin="414,386,0,0" VerticalAlignment="Top" Width="170"/>
 
     </Grid>
-</Window>
+</mah:MetroWindow>
