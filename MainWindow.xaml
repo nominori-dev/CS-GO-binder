@@ -8,9 +8,9 @@
         mc:Ignorable="d"
         Title="CSGO binder" Height="450" Width="600" WindowStyle="ToolWindow" Icon="iconfinder_csgo_squircle_4737387.png" ResizeMode="CanMinimize">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Name="config_box" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" Height="336" Margin="298,40,0,0" Text="Clear before using :D" VerticalAlignment="Top" Width="286" FontSize="9"/>
+        <TextBox HorizontalAlignment="Left" Name="config_box" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" Height="336" Margin="298,40,0,0" FontFamily="/CSGOconfig;fonts/#ROBOTO" Text="" VerticalAlignment="Top" Width="286" FontSize="9"/>
         <Button Content="CLEAR" Name="btn_clear" Click="OnClick" HorizontalAlignment="Left" Margin="182,335,0,0" VerticalAlignment="Top" Width="101" Height="41"/>
-        <Button Content="Preset by yomiyori" x:Name="btn_preset" HorizontalAlignment="Left" Margin="21,335,0,0" VerticalAlignment="Top" Width="101" Height="41" FontSize="11"/>
+        <Button Content="Preset by yomiyori" x:Name="btn_preset" HorizontalAlignment="Left" Margin="21,335,0,0" VerticalAlignment="Top" Width="101" Height="41" FontSize="8" Click="btn_preset_Click"/>
         <ComboBox Name="ActionBOX" HorizontalAlignment="Left" Height="27" Margin="21,104,0,0" VerticalAlignment="Top" Width="141">
             <ComboBoxItem>Jumpthrow</ComboBoxItem>
             <ComboBoxItem>Quickswitch</ComboBoxItem>
@@ -96,7 +96,7 @@
         </ComboBox>
         <Label Content="Command" HorizontalAlignment="Left" Margin="21,151,0,0" VerticalAlignment="Top" Height="27" Width="141"/>
         <Button Content="Add command" x:Name="add_command" Click="OnClick6" HorizontalAlignment="Left" Margin="21,210,0,0" VerticalAlignment="Top" Width="101" Height="34"/>
-        <Label Content="build 03.05.2021 version 0.1" HorizontalAlignment="Left" Margin="414,386,0,0" VerticalAlignment="Top" Width="170"/>
+        <Label Content="build 06.05.2021 version 0.2" HorizontalAlignment="Left" Margin="414,386,0,0" VerticalAlignment="Top" Width="170"/>
 
     </Grid>
 </mah:MetroWindow>

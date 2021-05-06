@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("yomi.txt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("csgo.svg")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("icons/csgo.svg")]
 

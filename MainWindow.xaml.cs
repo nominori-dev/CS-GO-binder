@@ -27,7 +27,7 @@ namespace CSGOconfig
         public MainWindow()
         {
             InitializeComponent();
-            btn_preset.IsEnabled = false;
+            btn_preset.IsEnabled = true;
 
         }
 
@@ -109,6 +109,22 @@ namespace CSGOconfig
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
 
+        }
+
+        void btn_preset_Click(object sender, RoutedEventArgs e)
+        {
+            //bind a,b,d,x
+            string first_lines = $"bind \"a\" \"+moveleft; r_cleardecals\"\nbind \"d\" \"+moveright; r_cleardecals\"\nbind \"x\" \"slot12\"";
+            //bind 4-6
+            string second_lines = $"\nbind \"CAPSLOCK\" \"noclip\"\nbind \"F1\" \"buy m4a1; buy ak47;\"\nbind \"F2\" \"buy deagle;\"\nbind \"f3\" \"buy vesthelm; buy vest; buy defuser;\"";
+
+            string thirth_lines = $"\nbind \"F4\" \"buy flashbang; buy flashbang; buy smokegrenade; buy molotov; buy incgrenade; buy incgrenade; buy molotov;\"\nbind \"F5\" \"buy flashbang; buy flashbang;\"\nbind \"RCTRL\" \"incrementvar cl_crosshaircolor 0 5 1\"\nbind \"j\" \"use weapon_knife; use weapon_c4; drop; slot1\"\n";
+            string text = first_lines + second_lines + thirth_lines;
+            config_box.Text += text;
+            var writer = new StreamWriter(File.OpenWrite("yomi.cfg"));
+            writer.WriteLine(config_box.Text);
+            writer.Close();
+            MessageBox.Show("Saved to yomi.cfg");
         }
     }
 }

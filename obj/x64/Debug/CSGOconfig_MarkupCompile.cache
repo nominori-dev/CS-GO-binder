@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\eveli\csgo-binder\obj\x64\Release\
+C:\Users\eveli\csgo-binder\obj\x64\Debug\
 CSGOconfig
 none
 false
-TRACE
+DEBUG;TRACE
 C:\Users\eveli\csgo-binder\App.xaml
 2462529049
 3-2135733192
-7-1658917813
+6-1344379206
 20-1823682449
 MainWindow.xaml;Window1.xaml;
 
