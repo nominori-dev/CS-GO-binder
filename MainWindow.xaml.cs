@@ -14,12 +14,15 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MahApps.Metro.Controls;
+using ModernWpf;
+using ModernWpf.Controls;
+
 namespace CSGOconfig
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : MetroWindow
+    public partial class MainWindow : Window
     {
 
 
@@ -125,6 +128,15 @@ namespace CSGOconfig
             writer.WriteLine(config_box.Text);
             writer.Close();
             MessageBox.Show("Saved to yomi.cfg");
+        }
+
+        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            ThemeManager.Current.ApplicationTheme = ApplicationTheme.Light;
+        }
+        private void CheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            ThemeManager.Current.ApplicationTheme = ApplicationTheme.Dark;
         }
     }
 }
