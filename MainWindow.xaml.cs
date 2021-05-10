@@ -1,4 +1,7 @@
-﻿using System;
+﻿// CS:GO Binder by nominori-dev
+
+//System libraries
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -11,11 +14,15 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
+using System.Windows.Navigation; 
 using System.Windows.Shapes;
+
+//UI Frameworks
 using MahApps.Metro.Controls;
 using ModernWpf;
 using ModernWpf.Controls;
+
+
 
 namespace CSGOconfig
 {
@@ -34,11 +41,13 @@ namespace CSGOconfig
 
         }
 
+        //Clear button
         void OnClick(object sender, RoutedEventArgs e)
         {
             config_box.Text = "";
         }
 
+        //Add to config button
         void OnClick3(object sender, RoutedEventArgs e)
         {
             string actionbox = ActionBOX.Text;
@@ -88,6 +97,7 @@ namespace CSGOconfig
             config_box.Text += str;
         }
 
+        //Save cfg file button
         void OnClick4(object sender, RoutedEventArgs e)
         {
             var writer = new StreamWriter(File.OpenWrite("config.cfg"));
@@ -96,6 +106,7 @@ namespace CSGOconfig
             MessageBox.Show("Successfuly saved to config.cfg");
         }
 
+        //Faq button
         void OnClick5(object sender, RoutedEventArgs e)
         {
             faq.IsEnabled = false;
@@ -104,16 +115,14 @@ namespace CSGOconfig
             faq.IsEnabled = true;
         }
 
+        //Add command button
         void OnClick6(object sender, RoutedEventArgs e)
         {
             string str = CommandBOX.Text + "\n";
             config_box.Text += str;
         }
-        private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
-        {
 
-        }
-
+        //Preset by yomiyori
         void btn_preset_Click(object sender, RoutedEventArgs e)
         {
             //bind a,b,d,x
@@ -130,6 +139,8 @@ namespace CSGOconfig
             MessageBox.Show("Saved to yomi.cfg");
         }
 
+
+        //Theme change buttons
         private void CheckBox_Checked(object sender, RoutedEventArgs e)
         {
             ThemeManager.Current.ApplicationTheme = ApplicationTheme.Light;
