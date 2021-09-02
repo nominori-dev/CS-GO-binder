@@ -234,7 +234,7 @@ namespace csgoBinder.ViewModels
 
         private void AddCommand(object value)
         {
-            config += SCommands.Name;
+            config += SCommands.Name+"\n";
         }
 
         private void ClearConfigBox(object value)

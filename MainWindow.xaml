@@ -18,9 +18,9 @@
     <Grid>
         <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="578.21" Margin="10,10,0,0" VerticalAlignment="Top" Width="820.113" RadiusY="3.5" RadiusX="3.5"/>
         <Rectangle Fill="#FF5858E8" HorizontalAlignment="Left" Height="35.833" Margin="786.613,10,0,0" RadiusY="3.387" RadiusX="3.387" VerticalAlignment="Top" Width="43.5"/>
-        <Button Content="Clear" HorizontalAlignment="Left" Margin="282,472.5,0,0" VerticalAlignment="Top" Width="109.5" Height="53"/>
+        <Button Content="Clear" Command="{Binding clearConfig}" HorizontalAlignment="Left" Margin="282,472.5,0,0" VerticalAlignment="Top" Width="109.5" Height="53"/>
         <Button Content="Add action"  Command="{Binding addAction}" HorizontalAlignment="Left" Margin="282,201.703,0,0" VerticalAlignment="Top" Width="109.5" Height="32" RenderTransformOrigin="0.484,0.66"/>
-        <Button Content="Save" HorizontalAlignment="Left" Margin="282,263.703,0,0" VerticalAlignment="Top" Width="109.5" Height="34"/>
+        <Button Content="Save" Command="{Binding saveCfg}" HorizontalAlignment="Left" Margin="282,263.703,0,0" VerticalAlignment="Top" Width="109.5" Height="34"/>
         <Button Content="Add command" Command="{Binding addCommand}" HorizontalAlignment="Left" Margin="63.333,291,0,0" VerticalAlignment="Top" Width="129" Height="35"/>
         <ComboBox HorizontalAlignment="Left" ItemsSource="{Binding Commands}" SelectedItem="{Binding SCommands}" Foreground="Black" DisplayMemberPath="Name" Margin="43.5,223.5,0,0" VerticalAlignment="Top" Width="171" Height="35.46"/>
         <ComboBox HorizontalAlignment="Left" ItemsSource="{Binding Actions}" SelectedItem="{Binding SActions}" Foreground="Black" DisplayMemberPath="Name" Margin="43.5,145.5,0,0" VerticalAlignment="Top" Width="171" Height="35.46"/>
