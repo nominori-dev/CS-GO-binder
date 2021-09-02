@@ -7,6 +7,9 @@
 3. Presets
 4. Save to cfg file
 
+![MainWindow](https://i.imgur.com/GYI6rbT.png)
+
+
 # :blossom: Task lists
 
 - [x] 0.1 Version(Basic commands and actions)
