@@ -8,7 +8,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:csgoBinder"
         mc:Ignorable="d"
-        Title="MainWindow" MouseDown="Window_MouseDown" AllowsTransparency="True" Height="598.21" Width="840.113" Background="{x:Null}" Foreground="{x:Null}" WindowStyle="None" ResizeMode="NoResize">
+        Title="CSGO Binder" MouseDown="Window_MouseDown" AllowsTransparency="True" Height="598.21" Width="840.113" Background="{x:Null}" Foreground="{x:Null}" WindowStyle="None" ResizeMode="NoResize">
     <Window.DataContext>
         <viewmodels:MainWindowViewModel x:Name="VMMainWindow"></viewmodels:MainWindowViewModel>
     </Window.DataContext>
@@ -43,7 +43,7 @@
         <Button ToolTip="Закрыть окно" Style="{DynamicResource MaterialDesignFlatButton}" Click="Button_Click" HorizontalAlignment="Left" Margin="786.613,10,0,0" VerticalAlignment="Top" Width="43.5" Height="35.833">
             <materialDesign:PackIcon Kind="CloseBox" Height="22.666" Width="12.667"/>
         </Button>
-        <TextBlock HorizontalAlignment="Left" Margin="43.5,556.833,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Black" Text="Version: 1.0.0" Height="21" Width="79.833" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43.5,556.833,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Black" Text="Version: 0.5" Height="21" Width="79.833" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="43.5,119.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Black" Text="Action" Height="21" Width="41.166" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="43.5,197.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Black" Text="Command" Height="21" Width="61.833" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="247.5,119.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Black" Text="Button" Height="21" Width="41.166" FontWeight="Bold"/>

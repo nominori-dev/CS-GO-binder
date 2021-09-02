@@ -8,7 +8,7 @@ using System.Windows;
 // набор атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
 [assembly: AssemblyTitle("csgoBinder")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Binder for CS:GO")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("csgoBinder")]
