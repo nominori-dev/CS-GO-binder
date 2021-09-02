@@ -20,3 +20,4 @@ C:\Users\eveli\Documents\GitHub\CS-GO-binder\obj\Debug\csgoBinder.csproj.CopyCom
 C:\Users\eveli\Documents\GitHub\CS-GO-binder\obj\Debug\csgoBinder.exe
 C:\Users\eveli\Documents\GitHub\CS-GO-binder\obj\Debug\csgoBinder.pdb
 C:\Users\eveli\Documents\GitHub\CS-GO-binder\obj\Debug\App.baml
+C:\Users\eveli\Documents\GitHub\CS-GO-binder\obj\Debug\GeneratedInternalTypeHelper.g.cs
