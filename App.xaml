@@ -1,15 +1,9 @@
-﻿<Application x:Class="CSGOconfig.App"
+﻿<Application x:Class="csgoBinder.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:CSGOconfig"
-             xmlns:ui="http://schemas.modernwpf.com/2019"
+             xmlns:local="clr-namespace:csgoBinder"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ui:ThemeResources RequestedTheme="Dark" AccentColor="Red"/>
-                <ui:XamlControlsResources />
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
+         
     </Application.Resources>
 </Application>

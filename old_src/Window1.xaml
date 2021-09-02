@@ -1,0 +1,15 @@
+﻿<Window x:Class="CSGOconfig.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSGOconfig"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        ui:WindowHelper.UseModernWindowStyle="True"
+        mc:Ignorable="d"
+        Title="FAQ" Height="350" Width="300" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="1. Create your config(action + button &#xD;&#xA;+ add to config)&#xD;&#xA;2. Save your config&#xD;&#xA;3. Open config in text editor&#xD;&#xA;4. Copy all text&#xD;&#xA;5. Run CS:GO&#xD;&#xA;6. Open console&#xD;&#xA;7. Paste text from config&#xD;&#xA;&#xD;&#xA;That's all!&#xD;&#xA;&#xD;&#xA;Also you can add do this with your config.cfg&#xD;&#xA;(Steam\userdata\xxxxxx\730\local\config.cfg)&#xD;&#xA;before doing this please make backup of your&#xD;&#xA;config.cfg&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="301" Width="274" FontSize="11"/>
+
+    </Grid>
+</Window>
